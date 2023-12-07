@@ -1,0 +1,185 @@
+
+/* General Info */
+
+html {
+    font-family: sans-serif
+}
+body{
+    background-color: white;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+.contact-left #sendRequest{
+    color: darkblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right #reachMe{
+    color: darkblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Advanced changes */
+
+li{
+    color: black;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+/* images */
+
+#image{
+    position: relative;
+    top: 10px;
+}
+
+/* Navigation bar */
+
+.navbar ul{
+    list-style-type: none;
+    background-color: darkblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: orange;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    position: relative;
+    right: -550px;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+}
+
+/* Contact me page */
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: white;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: white;
+    background: lightgray;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: darkgray;
+    color: #fff;
+}
+
+#contactH1{
+    margin-bottom: 10px;
+
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+/* Contact page */
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+    background: lightgray;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background: lightgray;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: darkblue;
+}
+
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+
+tr td:first-child{
+    padding-right: 20px;
+    
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+::placeholder{
+    color: black;
+}
+
+#aboutMehr{
+    background-color: blue;
+    height: 1.5px;
+    width: 150px;
+}
+
